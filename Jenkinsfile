@@ -33,6 +33,14 @@ pipeline {
             sh 'sh /Users/chaamini/MyWork/Scripts/deploying-api.sh $APINAME'
          }
       }
+
+      stage('Publishing API to Portal') {
+         steps {
+            echo "Publishing to Portal"
+            sh 'apictl set --mode k8s'
+            sh 'apictl import-api -f $APINAME/ -e k8s -k'
+         }
+      }
    }
    
    post {
