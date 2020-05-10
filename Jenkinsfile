@@ -31,7 +31,8 @@ pipeline {
          /*   echo "Deploying to Kubernetes"
             sh 'apictl set --mode k8s'
             sh 'sh /Users/chaamini/MyWork/Scripts/deploying-api.sh $APINAME'*/
-            sh 'echo $GIT_COMMIT'
+            sh 'echo running the build on top of the commit hash: $GIT_COMMIT'
+            python /Users/chaamini/MyWork/Scripts/deployment-api.py
          }
       }
 
