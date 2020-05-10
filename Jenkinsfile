@@ -32,7 +32,7 @@ pipeline {
             sh 'apictl set --mode k8s'
             sh 'sh /Users/chaamini/MyWork/Scripts/deploying-api.sh $APINAME'*/
             sh 'echo running the build on top of the commit hash: $GIT_COMMIT'
-            /usr/bin/python /Users/chaamini/MyWork/Scripts/deployment-api.py
+            sh '/usr/bin/python /Users/chaamini/MyWork/Scripts/deployment-api.py'
          }
       }
 
