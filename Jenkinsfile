@@ -42,7 +42,7 @@ pipeline {
             sh 'apictl set --mode k8s'
             sh 'apictl import-api -f $APINAME/ -e k8s -k'
   */
-            echo "Hellow orld"
+            echo "Hello world"
          }
       }
    }
