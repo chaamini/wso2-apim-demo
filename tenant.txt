@@ -1,2 +1,2 @@
-pet-store-api,dell,volks,super
-store-api,dell,super
+pet-store-api,dell,volks,k8s
+store-api,dell,k8s
