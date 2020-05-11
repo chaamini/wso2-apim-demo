@@ -17,14 +17,14 @@ pipeline {
                credentialsId: 'github-chaamini'
          }
       }
-       stage('Releasing a new API version to GitHub') {
+      /* stage('Releasing a new API version to GitHub') {
          steps {
             echo "Deploying new version of API"
             withCredentials([usernamePassword(credentialsId: 'github-chaamini', usernameVariable: 'USER', passwordVariable: 'PASS')]) {
                 sh 'sh /Users/chaamini/MyWork/Scripts/git-release.sh $APINAME $USER $PASS $REPO'                        
             }
          }
-      }     
+      }  */   
      
       stage('Deploying API to Kubernetes') {
          steps {
