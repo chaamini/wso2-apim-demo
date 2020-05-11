@@ -15,11 +15,11 @@ info:
     name: Apache 2.0
     url: http://www.apache.org/licenses/LICENSE-2.0.html
 tags:
-  
+
 - name: pet
   description: Everything about your Pets
   externalDocs:
-    description: Find out more
+    description: Find out more here
     url: http://swagger.io
 x-wso2-basePath: /pet/{version}
 x-wso2-production-endpoints:
