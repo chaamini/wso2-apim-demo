@@ -41,7 +41,7 @@ pipeline {
 /*            echo "Publishing to Portal"
             sh 'apictl set --mode k8s'
             sh 'apictl import-api -f $APINAME/ -e k8s -k'
-  */
+*/
             echo "Publish API to Portal - DONE"
          }
       }
