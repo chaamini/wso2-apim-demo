@@ -28,21 +28,23 @@ pipeline {
      
       stage('Deploying API to Kubernetes') {
          steps {
-            echo "Deploying to Kubernetes"
+            echo "[INFO] - Deploying to Kubernetes - Begin"
             sh 'apictl set --mode k8s'
             /*sh 'sh /Users/chaamini/MyWork/Scripts/deploying-api.sh $APINAME'*/
             sh 'echo running the build on top of the commit hash: $GIT_COMMIT'
-            sh '/usr/bin/python /Users/chaamini/MyWork/Scripts/deployment-api.py'
+            sh '/usr/bin/python /Users/chaamini/MyWork/Scripts/deployment-api.py createapi'
+            echo "[INFO] - Deploying to Kubernetes - End"
          }
       }
 
       stage('Publishing API to Portal') {
          steps {
-/*            echo "Publishing to Portal"
-            sh 'apictl set --mode k8s'
+            echo "[INFO] - Publishing API to Portal - Begin"
+/*            sh 'apictl set --mode k8s'
             sh 'apictl import-api -f $APINAME/ -e k8s -k'
 */
-            echo "[INFO] - Publish API to Portal - DONE"
+            sh '/usr/bin/python /Users/chaamini/MyWork/Scripts/deployment-api.py tenant'
+            echo "[INFO] - Publishing API to Portal - End"
          }
       }
    }
