@@ -18,7 +18,7 @@ tags:
 - name: store
   description: Access to Petstore orders
   externalDocs:
-    description: Find out more here
+    description: Find out more
     url: http://swagger.io
 x-wso2-basePath: /store/{version}
 x-wso2-production-endpoints:

@@ -19,7 +19,7 @@ tags:
 - name: pet
   description: Everything about your Pets
   externalDocs:
-    description: Find out more here
+    description: Find out more
     url: http://swagger.io
 x-wso2-basePath: /pet/{version}
 x-wso2-production-endpoints:
