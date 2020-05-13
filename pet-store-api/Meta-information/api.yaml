@@ -13,6 +13,12 @@ tags:
 availableTiers:
 - name: Unlimited
 status: PUBLISHED
+gatewayLabels:
+ -
+  name: foo
+  description: ""
+  accessUrls:
+   - https://localhost:9095
 visibility: public
 transports: http,https
 endpointConfig: '{"endpoint_type":"http","production_endpoints":{"url":"https://petstore.swagger.io/v2","config":null}}'
