@@ -1,0 +1,30 @@
+openapi: 3.0.0
+servers:
+- url: http://localhost:7078/hello/world
+info:
+  description: 'Sample Hello World API'
+  version: 1.0.0
+  title: HelloWorld-API
+  termsOfService: http://swagger.io/terms/
+tags:
+
+- name: hello
+x-wso2-basePath: /sayHello/{version}
+x-wso2-production-endpoints:
+  urls:
+  - http://localhost:7078/hello/world
+x-wso2-sandbox-endpoints: 
+  urls: 
+  - http://localhost:7078/hello/world
+paths: 
+    /*: 
+      get: 
+        responses: 
+          "200": 
+            description: OK
+        x-auth-type: Application & Application User
+        x-throttling-tier: null
+        x-wso2-application-security: 
+          security-types: 
+            - oauth2
+          optional: false

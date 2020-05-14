@@ -1,12 +1,12 @@
 id:
   providerName: admin
   apiName: Pets-API
-  version: v1
+  version: 1.0.0
 description: 'This is a sample server Petstore server.  You can find out more about
   Swagger at [http://swagger.io](http://swagger.io) or on [irc.freenode.net, #swagger](http://swagger.io/irc/).  For
   this sample, you can use the api key `special-key` to test the authorization filters.'
 type: HTTP
-context: /pet/v1
+context: /pet/1.0.0
 contextTemplate: /pet/{version}
 tags:
 - pet
@@ -15,8 +15,8 @@ availableTiers:
 status: PUBLISHED
 gatewayLabels:
  -
-  name: foo
-  description: ""
+  name: Shared
+  description: "Shared API Microgateway"
   accessUrls:
    - https://localhost:9095
 visibility: public
