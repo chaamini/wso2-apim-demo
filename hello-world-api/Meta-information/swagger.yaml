@@ -1,6 +1,6 @@
 openapi: 3.0.0
 servers:
-- url: http://www.mocky.io/v2/5ebd208e310000e2c05b10b9
+- url: http://helloworld
 info:
   description: Sample Hello World API
   version: 2.0.0
@@ -11,10 +11,10 @@ tags:
 x-wso2-basePath: /hello/{version}
 x-wso2-production-endpoints:
   urls:
-  - http://www.mocky.io/v2/5ebd208e310000e2c05b10b9
+  - http://helloworld
 x-wso2-sandbox-endpoints:
   urls:
-  - hhttp://www.mocky.io/v2/5ebd208e310000e2c05b10b9
+  - http://helloworld
 paths:
   /*:
     get:
