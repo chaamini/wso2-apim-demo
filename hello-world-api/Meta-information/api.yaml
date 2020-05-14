@@ -36,13 +36,7 @@ availableTiers:
   timeUnit: min
   tierPlan: FREE
   stopOnQuotaReached: true
-status: PUBLISHED
-gatewayLabels:
- -
-  name: Shared
-  description: "Shared API Microgateway"
-  accessUrls:
-   - https://localhost:9095
+status: CREATED
 visibility: public
 transports: http,https
 endpointConfig: '{"endpoint_type":"http","production_endpoints":{"url":"http://localhost:9092/hello/world","config":null},"sandbox_endpoints":{"url":"http://localhost:9092/hello/world","config":null}}'
