@@ -4,8 +4,8 @@ id:
   version: 2.0.0
 description: Sample Hello World API
 type: HTTP
-context: /sayHello/1.0.0
-contextTemplate: /sayHello/{version}
+context: /hello/1.0.0
+contextTemplate: /Hello/{version}
 tags:
 - hello
 availableTiers:

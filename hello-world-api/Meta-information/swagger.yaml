@@ -8,7 +8,7 @@ info:
   termsOfService: http://swagger.io/terms/
 tags:
 - name: hello
-x-wso2-basePath: /sayHello/{version}
+x-wso2-basePath: /hello/{version}
 x-wso2-production-endpoints:
   urls:
   - http://localhost:9092/hello/world
