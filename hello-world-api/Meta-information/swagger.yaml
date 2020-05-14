@@ -1,6 +1,6 @@
 openapi: 3.0.0
 servers:
-- url: http://localhost:7078/hello/world
+- url: http://localhost:9092/hello/world
 info:
   description: 'Sample Hello World API '
   version: 1.0.0
