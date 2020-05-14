@@ -1,6 +1,6 @@
 openapi: 3.0.0
 servers:
-- url: http://helloworld
+- url: http://helloworld/hello/world
 info:
   description: Sample Hello World API
   version: 2.0.0
@@ -11,10 +11,10 @@ tags:
 x-wso2-basePath: /hello/{version}
 x-wso2-production-endpoints:
   urls:
-  - http://helloworld
+  - http://helloworld/hello/world
 x-wso2-sandbox-endpoints:
   urls:
-  - http://helloworld
+  - http://helloworld/hello/world
 paths:
   /*:
     get:

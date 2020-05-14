@@ -39,4 +39,4 @@ availableTiers:
 status: PUBLISHED
 visibility: public
 transports: http,https
-endpointConfig: '{"endpoint_type":"http","production_endpoints":{"url":"http://helloworld","config":null},"sandbox_endpoints":{"url":"http://helloworld","config":null}}'
+endpointConfig: '{"endpoint_type":"http","production_endpoints":{"url":"http://helloworld/hello/world","config":null},"sandbox_endpoints":{"url":"http://helloworld/hello/world","config":null}}'
