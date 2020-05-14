@@ -1,0 +1,16 @@
+id:
+  providerName: admin
+  apiName: HelloWorld-API
+  version: 1.0.0
+description: Sample Hello World API
+type: HTTP
+context: /sayHello/1.0.0
+contextTemplate: /sayHello/{version}
+tags:
+- hello
+availableTiers:
+- name: Unlimited
+status: PUBLISHED
+visibility: public
+transports: http,https
+endpointConfig: '{"endpoint_type":"http","production_endpoints":{"url":"http://localhost:7078/hello/world","config":null},"sandbox_endpoints":{"url":"http://localhost:7078/hello/world","config":null}}'
