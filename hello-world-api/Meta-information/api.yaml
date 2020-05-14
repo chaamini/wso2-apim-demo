@@ -1,7 +1,7 @@
 id:
   providerName: admin
-  apiName: HelloWorld-API
-  version: 1.0.0
+  apiName: Hello-API
+  version: 2.0.0
 description: Sample Hello World API
 type: HTTP
 context: /sayHello/1.0.0

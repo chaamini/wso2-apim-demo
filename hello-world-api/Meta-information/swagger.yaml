@@ -3,8 +3,8 @@ servers:
 - url: http://localhost:9092/hello/world
 info:
   description: Sample Hello World API
-  version: 1.0.0
-  title: HelloWorld-API
+  version: 2.0.0
+  title: Hello-API
   termsOfService: http://swagger.io/terms/
 tags:
 - name: hello
