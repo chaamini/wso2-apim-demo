@@ -39,4 +39,4 @@ availableTiers:
 status: PUBLISHED
 visibility: public
 transports: http,https
-endpointConfig: '{"endpoint_type":"http","production_endpoints":{"url":"http://www.mocky.io/v2/5ebd208e310000e2c05b10b9","config":null},"sandbox_endpoints":{"url":"http://www.mocky.io/v2/5ebd208e310000e2c05b10b9","config":null}}'
+endpointConfig: '{"endpoint_type":"http","production_endpoints":{"url":"https://helloworld/hello/world","config":null},"sandbox_endpoints":{"url":"https://helloworld/hello/world","config":null}}'
