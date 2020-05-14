@@ -45,4 +45,4 @@ gatewayLabels:
    - https://localhost:9095
 visibility: public
 transports: http,https
-endpointConfig: '{"endpoint_type":"http","production_endpoints":{"url":"http://localhost:7078/hello/world","config":null},"sandbox_endpoints":{"url":"http://localhost:7078/hello/world","config":null}}'
+endpointConfig: '{"endpoint_type":"http","production_endpoints":{"url":"http://localhost:9092/hello/world","config":null}'

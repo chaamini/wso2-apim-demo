@@ -12,10 +12,7 @@ tags:
 x-wso2-basePath: /sayHello/{version}
 x-wso2-production-endpoints:
   urls:
-  - http://localhost:7078/hello/world
-x-wso2-sandbox-endpoints: 
-  urls: 
-  - http://localhost:7078/hello/world
+  - http://localhost:9092/hello/world
 paths: 
     /*: 
       get: 
