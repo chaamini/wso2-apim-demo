@@ -12,6 +12,32 @@ tags:
 - pet
 availableTiers:
 - name: Unlimited
+  displayName: Unlimited
+  description: Allows unlimited requests
+  requestsPerMin: 2147483647
+  requestCount: 2147483647
+  unitTime: 0
+  timeUnit: ms
+  tierPlan: FREE
+  stopOnQuotaReached: true
+- name: Silver
+  displayName: Silver
+  description: Allows 2000 requests per minute
+  requestsPerMin: 2000
+  requestCount: 2000
+  unitTime: 1
+  timeUnit: min
+  tierPlan: FREE
+  stopOnQuotaReached: true
+- name: CustomPolicy
+  displayName: CustomPolicy
+  description: Allows 2 requests per minute
+  requestsPerMin: 2
+  requestCount: 2
+  unitTime: 1
+  timeUnit: min
+  tierPlan: FREE
+  stopOnQuotaReached: true
 status: PUBLISHED
 gatewayLabels:
  -
