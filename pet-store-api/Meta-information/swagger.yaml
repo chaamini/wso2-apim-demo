@@ -3,7 +3,7 @@ servers:
 - url: https://petstore.swagger.io/v2
 - url: http://petstore.swagger.io/v2
 info:
-  description: 'This iiss a sample server Petstore server.  You can find out more about
+  description: 'This  iiiss a sample server Petstore server.  You can find out more about
     Swagger at [http://swagger.io](http://swagger.io) or on [irc.freenode.net, #swagger](http://swagger.io/irc/).  For
     this sample, you can use the api key `special-key` to test the authorization filters.'
   version: 1.0.0
