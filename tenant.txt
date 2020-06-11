@@ -1,3 +1,0 @@
-pet-store-api,dell,volks,internal
-store-api,dell,internal
-hello-world-api,volks,internal
