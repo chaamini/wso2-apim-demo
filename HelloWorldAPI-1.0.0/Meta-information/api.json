@@ -1,0 +1,138 @@
+{
+  "id": {
+    "providerName": "chaamini-AT-wso2.com-AT-uniofmadison",
+    "apiName": "HelloWorldAPI",
+    "version": "1.0.0"
+  },
+  "uuid": "b8ac9283-eb29-4eb6-8894-89723f6f5bff",
+  "description": "Its a HelloWorld API",
+  "type": "HTTP",
+  "context": "/t/uniofmadison/hello/1.0.0",
+  "contextTemplate": "/t/uniofmadison/hello/{version}",
+  "tags": [
+    "hello"
+  ],
+  "documents": [],
+  "lastUpdated": "Jun 17, 2020 5:59:22 AM",
+  "availableTiers": [
+    {
+      "name": "Bronze",
+      "displayName": "Bronze",
+      "description": "Allows 1000 requests per minute",
+      "requestsPerMin": 1000,
+      "requestCount": 1000,
+      "unitTime": 1,
+      "timeUnit": "min",
+      "tierPlan": "FREE",
+      "stopOnQuotaReached": true
+    },
+    {
+      "name": "Gold",
+      "displayName": "Gold",
+      "description": "Allows 5000 requests per minute",
+      "requestsPerMin": 5000,
+      "requestCount": 5000,
+      "unitTime": 1,
+      "timeUnit": "min",
+      "tierPlan": "FREE",
+      "stopOnQuotaReached": true
+    },
+    {
+      "name": "Silver",
+      "displayName": "Silver",
+      "description": "Allows 2000 requests per minute",
+      "requestsPerMin": 2000,
+      "requestCount": 2000,
+      "unitTime": 1,
+      "timeUnit": "min",
+      "tierPlan": "FREE",
+      "stopOnQuotaReached": true
+    },
+    {
+      "name": "Unlimited",
+      "displayName": "Unlimited",
+      "description": "Allows unlimited requests",
+      "requestsPerMin": 2147483647,
+      "requestCount": 2147483647,
+      "unitTime": 0,
+      "timeUnit": "ms",
+      "tierPlan": "FREE",
+      "stopOnQuotaReached": true
+    }
+  ],
+  "availableSubscriptionLevelPolicies": [],
+  "uriTemplates": [
+    {
+      "uriTemplate": "/msg",
+      "httpVerb": "GET",
+      "authType": "Any",
+      "httpVerbs": [
+        "GET"
+      ],
+      "authTypes": [
+        "Any"
+      ],
+      "throttlingConditions": [],
+      "throttlingTier": "Unlimited",
+      "throttlingTiers": [
+        "Unlimited"
+      ],
+      "mediationScript": "null",
+      "scopes": [
+        null
+      ],
+      "mediationScripts": {}
+    }
+  ],
+  "apiHeaderChanged": false,
+  "apiResourcePatternsChanged": false,
+  "status": "PUBLISHED",
+  "visibility": "public",
+  "endpointSecured": false,
+  "endpointAuthDigest": false,
+  "transports": "http,https",
+  "advertiseOnly": false,
+  "subscriptionAvailability": "current_tenant",
+  "corsConfiguration": {
+    "corsConfigurationEnabled": false,
+    "accessControlAllowOrigins": [
+      "*"
+    ],
+    "accessControlAllowCredentials": false,
+    "accessControlAllowHeaders": [
+      "authorization",
+      "Access-Control-Allow-Origin",
+      "Content-Type",
+      "SOAPAction",
+      "X-Authorization"
+    ],
+    "accessControlAllowMethods": [
+      "GET",
+      "PUT",
+      "POST",
+      "DELETE",
+      "PATCH",
+      "OPTIONS"
+    ]
+  },
+  "endpointConfig": "{\"production_endpoints\":{\"url\":\"https://run.mocky.io/v3/6a1c7d31-fba8-4ad0-a0ab-05380c58e23a\",\"config\":null,\"template_not_supported\":false},\"sandbox_endpoints\":{\"url\":\"https://run.mocky.io/v3/6a1c7d31-fba8-4ad0-a0ab-05380c58e23a\",\"config\":null,\"template_not_supported\":false},\"endpoint_type\":\"http\"}",
+  "responseCache": "Disabled",
+  "cacheTimeout": 300,
+  "implementation": "ENDPOINT",
+  "scopes": [],
+  "isDefaultVersion": true,
+  "isPublishedDefaultVersion": false,
+  "environments": [
+    "Production and Sandbox"
+  ],
+  "createdTime": "1592398567000",
+  "additionalProperties": {},
+  "environmentList": [
+    "SANDBOX",
+    "PRODUCTION"
+  ],
+  "apiSecurity": "oauth2",
+  "accessControl": "all",
+  "rating": 0.0,
+  "isLatest": true
+}
