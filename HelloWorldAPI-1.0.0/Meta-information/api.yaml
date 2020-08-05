@@ -2,7 +2,7 @@ id:
   providerName: admin
   apiName: Hello-API
   version: 1.0.0
-description: Sample Hello World API
+description: Sample Hello world API
 type: HTTP
 context: /hello/2.0.0
 contextTemplate: /Hello/{version}
